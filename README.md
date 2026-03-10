@@ -42,13 +42,13 @@ Follow these steps to launch the dashboard on your local machine:
 2. Install Dependencies
    Run the following command to install the required libraries:
 ```
-   pip install -r requirements.txt
+   pip install pandas matplotlib streamlit
 ```
 
 3. Launch the Application
    Start the Streamlit server to view the dashboard:
 ```
-   streamlit run app.py
+   python -m streamlit run app.py
 ```
 
 ##  Requirements
